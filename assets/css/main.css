@@ -1997,7 +1997,7 @@ input, select, textarea {
 			-webkit-animation:spin 1s linear infinite;
 			-moz-animation:spin 1s linear infinite;
 			animation:spin 1s linear infinite;
-			animation-iteration-count: 2;
+			animation-iteration-count: 1;
 		}
 		@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
 		@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
@@ -2277,7 +2277,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url(images/bg03.svg) no-repeat, linear-gradient(45deg, #3d0093, #000b45);
+		background: url(images/bg03.svg) no-repeat, linear-gradient(45deg,#041DD9, #0796E6);
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2291,45 +2291,8 @@ input, select, textarea {
 		background-repeat: no-repeat, no-repeat;
 	}
 
-	#uniotago {
-		background: url(images/uniotagobackground.svg) no-repeat, linear-gradient(45deg, #022856, #1e98e0);
-		background-size: cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: no-repeat, no-repeat;
-	}
-	#vodafone {
-		background: url(images/vodafonebackground.svg) no-repeat, linear-gradient(90deg,#9e0202,#fb0000);
-		background-size: cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: no-repeat, no-repeat;
-	}
-
-	#dexcom {
-		background: url(images/dexcombackground.svg) no-repeat, linear-gradient(45deg,#029e1c,#089226);
-		background-size: cover;
-		background-attachment: fixed, fixed;
-		background-position: top right, bottom left;
-		background-repeat: no-repeat, no-repeat;
-	}
-	#sooil {
-		background: url(images/sooilbackground.svg) no-repeat, linear-gradient(45deg,#c3d6e6,#0502a2);
-		background-size: cover;
-		background-attachment: fixed, fixed;
-		background-position: top right, bottom left;
-		background-repeat: no-repeat, no-repeat;
-	}
-	#nsnz {
-		background: url(images/nsnzbackground.svg) no-repeat, black;
-		background-size: cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: no-repeat, no-repeat;
-	}
-
 	#location {
-		background: url(images/bg06.svg) no-repeat, #0BD996;
+		background:url(images/bg04.svg) no-repeat,#0760F0;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2341,7 +2304,7 @@ input, select, textarea {
 /* One */
 
 	#about {
-		background: url(images/bg05.svg) no-repeat, linear-gradient(45deg,#46ab2c,#dde8da);
+		background: url(images/bg05.svg) no-repeat, linear-gradient(45deg,#2A07F0,#041DD9);
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2351,7 +2314,7 @@ input, select, textarea {
 /* Two */
 
 	#participate {
-		background: url(images/bg04.svg) no-repeat, linear-gradient(90deg,#50aab9,#a4afb5);
+		background: url(images/bg04.svg) no-repeat, #0796E6;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2359,14 +2322,14 @@ input, select, textarea {
 	}
 
 	#status {
-		background: url(images/bg01.svg) no-repeat, linear-gradient(90deg,#281d4c,#c4b9ca);
+		background: url(images/bg01.svg) no-repeat, #6507E6;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: no-repeat, no-repeat;
 	}
 	#publications {
-		background: url(images/stripes.svg) no-repeat, linear-gradient(45deg, #649e6d, #2c5cb5);
+		background: url(images/stripes.svg) no-repeat,#6507E6;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
