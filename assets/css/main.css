@@ -657,6 +657,33 @@ input, select, textarea {
 
 		}
 
+.box-dark {
+	background: #666666;
+	color: #ffffff;
+	padding: 2em;
+}
+
+	.box-dark > :last-child {
+		margin-bottom: 0;
+	}
+
+	.box-dark.style2 {
+		padding: 3.5em 2.5em 3.5em 2.5em;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.box-dark {
+			padding: 1em;
+		}
+
+			.box-dark.style2 {
+				padding: 1.5em 1.25em 1.5em 1.25em;
+				background-color: rgb(0 0 0 / 90%);
+			}
+
+	}
+
 /* Button */
 
 	input[type="button"],
@@ -1993,11 +2020,12 @@ input, select, textarea {
 				opacity: 1.0;
 				margin: 0;
 			}
-			.loop-logo {
-			-webkit-animation:spin 1s linear infinite;
-			-moz-animation:spin 1s linear infinite;
-			animation:spin 1s linear infinite;
+		.loop-logo {
+			-webkit-animation:spin 1.25s linear infinite;
+			-moz-animation:spin 1.25s linear infinite;
+			animation:spin 1.25s linear infinite;
 			animation-iteration-count: 1;
+			animation-delay: 0.75s;
 		}
 		@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
 		@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
@@ -2277,14 +2305,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url(images/bg03.svg) no-repeat, linear-gradient(45deg,#041DD9, #0796E6);
-		background-size: cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: no-repeat, no-repeat;
-	}
-	#introack {
-		background: url(images/bg08.svg) no-repeat, linear-gradient(45deg, #02560c, #1ecee0);
+		background: url(images/bg03.svg) no-repeat, linear-gradient(0deg,#0760F0,#081A63);
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2292,7 +2313,7 @@ input, select, textarea {
 	}
 
 	#location {
-		background:url(images/bg04.svg) no-repeat,#0760F0;
+		background:url(images/bg03-dark-no-basal.svg) no-repeat,repeating-radial-gradient(circle at top left, transparent 86%, rgba(0, 0, 0, 0.02) 88%,transparent 90%, transparent 100%),repeating-radial-gradient( circle at top right, transparent 86%, rgba(0, 0, 0, 0.02) 88%,transparent 90%, transparent 100%),#d2d2d2;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2304,7 +2325,7 @@ input, select, textarea {
 /* One */
 
 	#about {
-		background: url(images/bg05.svg) no-repeat, linear-gradient(45deg,#2A07F0,#041DD9);
+		background: url(images/bg03-no-basal.svg) no-repeat, #004D80;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2314,22 +2335,22 @@ input, select, textarea {
 /* Two */
 
 	#participate {
-		background: url(images/bg04.svg) no-repeat, #0796E6;
+		background:url(images/bg03-dark-no-basal.svg) no-repeat, no-repeat,repeating-radial-gradient(circle at top left, transparent 86%, rgba(0, 0, 0, 0.02) 88%,transparent 90%, transparent 100%),repeating-radial-gradient( circle at top right, transparent 86%, rgba(0, 0, 0, 0.02) 88%,transparent 90%, transparent 100%),linear-gradient(0,#ededed,#ffffff);
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: no-repeat, no-repeat;
 	}
 
-	#status {
-		background: url(images/bg01.svg) no-repeat, #6507E6;
+	#news {
+		background: url(images/bg03-no-basal.svg) no-repeat,  #277fba;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
 		background-repeat: no-repeat, no-repeat;
 	}
 	#publications {
-		background: url(images/stripes.svg) no-repeat,#6507E6;
+		background: url(images/bg03-dark-no-basal.svg) no-repeat,repeating-radial-gradient(circle at top left, transparent 86%, rgba(0, 0, 0, 0.02) 88%,transparent 90%, transparent 100%),repeating-radial-gradient( circle at top right, transparent 86%, rgba(0, 0, 0, 0.02) 88%,transparent 90%, transparent 100%), #f6f6f6;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
