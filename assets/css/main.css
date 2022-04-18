@@ -2313,7 +2313,7 @@ input, select, textarea {
 	}
 
 	#location {
-		background:url(images/bg03-dark-no-basal.svg) no-repeat,repeating-radial-gradient(circle at top left, transparent 86%, rgba(0, 0, 0, 0.02) 88%,transparent 90%, transparent 100%),repeating-radial-gradient( circle at top right, transparent 86%, rgba(0, 0, 0, 0.02) 88%,transparent 90%, transparent 100%),#d2d2d2;
+		background:url(images/bg03-dark-no-basal-who.svg) no-repeat,repeating-radial-gradient(circle at top left, transparent 86%, rgba(0, 0, 0, 0.02) 88%,transparent 90%, transparent 100%),repeating-radial-gradient( circle at top right, transparent 86%, rgba(0, 0, 0, 0.02) 88%,transparent 90%, transparent 100%),#d2d2d2;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
