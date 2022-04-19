@@ -2325,7 +2325,7 @@ input, select, textarea {
 /* One */
 
 	#about {
-		background: url(images/bg03-no-basal.svg) no-repeat, #004D80;
+		background: url(images/bg03-dark-no-basal-about.svg) no-repeat, #004D80;
 		background-size: cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
